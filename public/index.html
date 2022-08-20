@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="KoinX Assessment by Aditya Malik" />
+    <meta name="author" content="Aditya Malik" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <title>KoinX Assessment - Aditya Malik</title>
+  </head>
+  <body>
+    <div style="text-align: center; margin: 50px">
+      <h1>Welcome to the KoinX backend assessment by Aditya Malik</h1>
+      <br />
+      <h3>Here is a list of endpoints that you can test !</h3>
+    </div>
+
+    <div style="margin: 30px; padding: 30px">
+      <div
+        style="
+          width: 100%;
+          padding: 10px;
+          margin-bottom: 20px;
+          border: 1px solid gray;
+        "
+      >
+        <strong>GET "/"</strong> : for loading home page
+      </div>
+      <div
+        style="
+          width: 100%;
+          padding: 10px;
+          margin-bottom: 20px;
+          border: 1px solid gray;
+        "
+      >
+        <strong>GET "/fetchTransactions"</strong> : for fetching transactions of
+        the user (pass "address" as request param)
+      </div>
+      <div
+        style="
+          width: 100%;
+          padding: 10px;
+          margin-bottom: 20px;
+          border: 1px solid gray;
+        "
+      >
+        <strong>GET "/currentBalance"</strong> : for fetching current balance
+        and current ethereum prices (pass "address" as request param)
+      </div>
+      <div
+        style="
+          width: 100%;
+          padding: 10px;
+          margin-bottom: 20px;
+          border: 1px solid gray;
+        "
+      >
+        <strong>GET "/currentBalanceUsingApi"</strong> : for fetching current
+        balance and current ethereum prices using Etherscan api (pass "address"
+        as request param)
+      </div>
+    </div>
+  </body>
+</html>
