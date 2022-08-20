@@ -67,6 +67,8 @@ app.get("/fetchTransactions", (request, result) => {
             });
 
             newUser.save();
+
+            result.send(res.data.result);
           })
           .catch((err) => {
             result.send(err);
