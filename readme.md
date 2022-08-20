@@ -1,9 +1,12 @@
 # KoinX assessment by Aditya Malik
 
+Live Hosting : https://koinxassignmentbyadityamalik.herokuapp.com/
+
 ## To run this app :
 
 1. npm i
-2. node app.js / nodemon
+2. make .env file and copy content from .env.example file and fill in your credentials
+3. node app.js / nodemon
 
 ## List of APIs (test using postman) :
 
